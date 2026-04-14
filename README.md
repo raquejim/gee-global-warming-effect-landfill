@@ -18,7 +18,13 @@ As a solution, this project tries to fix this problem by finding out which citie
 4) [Interactive Atlas of future climate](https://interactive-atlas.ipcc.ch/regional-information) created by the Intergovernmental Panel on Climate Change 6th Assessment Report to evaluate future climate impacts 
    
 ## Results 
-![Sea Level Rise and Storm Surge for Miami](results/miami.png)
+![Per Capita Total Waste VS GDP](results/plot.png)
+![Future Landfill MSW Per Day for Big Cities in Canada](results/futuremsw.png)
+![Future Canada 35°C > Heat Days](results/35overdays.png)
+
+The “waste_treatment_landfill_unspecified_percent” of Canada for last year was 72.33%, therefore it was used as the proportion to estimate amounts of MSW going to landfills in each city. As a result, we can see above that Toronto, Calgary, Edmonton and Montreal are the cities that will experience the most increase in MSW landfill per day, with Toronto having the highest number (1,880,551 tons). 
+
+When using the Interactive Atlas to find how many days there will be with temperatures higher than 35°C, it was found that Canada will not experience a lot of heavy heat days. Considering the country’s location, this is reasonable. However, according to the government, long-term forecasts indicate that the period from 2026 to 2030 will likely be the hottest five-year period on record for Canada. During this time, the country will experience many days with temperatures over 30°C. These temperatures are only more likely to increase with time.
 
 ## Live GEE Script
-[Click here for the Google Earth Engine script]()
+[Click here for the Google Earth Engine script](https://code.earthengine.google.com/2309c976d34a7239792a64eedf341566)
